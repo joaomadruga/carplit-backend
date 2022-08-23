@@ -1,4 +1,4 @@
-# Carplit Back-End
+# carplit
 
 ### (Optional) Create a virtualenv
 
@@ -10,19 +10,19 @@
 
 2. Start
 
-    - Windows
+    Windows
 
     ```shell
     .\venv\Scripts\activate
     ```
     
-    - Linux
+    Linux
 
     ```bash
     source venv/scripts/activate
     ```
 
-## Steps
+## Installation
 
 1. Install FastAPI and Uvicorn
     
@@ -34,14 +34,22 @@
     pip install "uvicorn[standard]"
     ```
 
-2. Install all requirements
+2. Install manage-fastapi
 
     ```python
-    pip install -r requirements.txt
+    pip install manage-fastapi 
     ```
 
-3. Run make `run_app`
-4. Check for [localhost](http://127.0.0.1:8000) on your browser
+## Getting Started 
+
+1. Run `fastapi run` in your terminal.
+
+    * To create a app folder user the following command.
+    ```bash
+    fastapi starapp {name}
+    ```
+
+4. Check for [localhost](http://127.0.0.1:8000) on your browser.
 
 ## Docs
 
@@ -50,3 +58,8 @@ FastAPI automatically creates the documentation and you can check it at  [docs](
 ## Documentation
 
 - [FastAPI](https://fastapi.tiangolo.com/)
+- [ManageFastAPI](https://github.com/ycd/manage-fastapi)
+
+## License
+
+This project is licensed under the terms of the MIT license.
